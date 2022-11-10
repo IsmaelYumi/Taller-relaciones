@@ -8,6 +8,12 @@ public class Administrador extends Persona {
 		
 		
 	}
+	public ArrayList<String> getUsuarios() {
+		return usuarios;
+	}
+	public void setUsuarios(ArrayList<String> usuarios) {
+		this.usuarios = usuarios;
+	}
 	public void AsignarRol(Persona p) {
 		
 	}
